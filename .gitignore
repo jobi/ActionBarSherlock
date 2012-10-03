@@ -15,17 +15,19 @@ lint.xml
 *.ipr
 *.iws
 classes
+gen-external-apklibs
 
 #Maven
 target
 release.properties
 pom.xml.*
 
-website/_site
-
 #Ant
+build.xml
+ant.properties
 local.properties
 proguard.cfg
+proguard-project.txt
 
 #Other
 .DS_Store
